@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+	color: grey;
+	text-decoration: none;
+}
+
+body {
+    background-image: url(../images/los_angeles_bg.jpg);
+	margin: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 0;
+    padding: 26px;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: normal;
+	text-transform: capitalize;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-transform: capitalize;
+	
+}
+
+header{
+	overflow: auto;
+	background-color: white;
+	margin: 0;
+	border-bottom: 2px solid grey;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	
+}
+
+#headwrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#name{
+    margin: 0;
+    background-color: #0B9E7E;
+    float: left;
+}
+
+nav {
+    padding: 30px 0;
+    margin: 0;
+    float: right;
+
+}
+
+.nav {
+    display: inline-block;
+    margin: 0 0 0 35px;
+	color: dimgray;
+}
+
+#container{
+    overflow: auto;
+    clear: both;
+    margin: 0 auto;
+    padding: 160px 0 20px 0;
+    width: 960px;
+    position: relative;
+}
+
+#left{
+    float: left;
+    width: 650px;
+    height: auto;
+    background-color: white;
+	padding: 20px 20px 0 20px;
+
+}
+
+#leftwrap{
+	border-top: 2px solid grey;
+	padding-top: 20px;
+}
+
+.profile{
+    display: block;
+    width: 265px;
+    height: 200px;
+    background-size: cover;
+    margin: 0 20px 0 0;
+	overflow: hidden
+}
+
+.profile img{
+	width: 300px;
+	height: auto;
+}
+
+
+
+#bio{
+    width: auto;
+    overflow: auto;
+	line-height: 1.5;
+	
+}
+
+#caption {
+    display: block;
+	background-color:#0B9E7E;
+	width: 265px;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	margin: 0;
+	
+}
+
+#crutch{
+	float: left;
+}
+
+
+#right{
+	float: right;
+    display: inline-block;
+    width: 270px;
+    height: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.icon {
+    display: inline-block;
+    width: 70px;
+    height: auto;
+    position: relative;
+
+}
+
+.icon img{
+	width: 75px;
+	height: auto;
+		
+}
+
+#iconwrap{
+	border-top: 2px solid grey;
+	padding: 20px 0 0 0;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.quote{
+	font-style: italic;
+	text-align: center;
+	display: block;
+}
+
+footer {
+    text-align: center;
+	border-top: #0B9E7E solid 10px;
+    margin: 40px auto 0;
+	padding: 40px;
+	background-color: grey;
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	z-index: -1;
+	
+}
