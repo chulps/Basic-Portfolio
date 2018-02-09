@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.item{
+	width: 250px;
+	height: 250px;
+	border: solid 1px grey;
+	display: inline-block;
+	margin:26px;
+}
+
+.coralbg{
+	background-color: coral;
+	
+} 
+
+.lightcoralbg{
+	background-color: lightcoral;
+	
+}
+
+.salmonbg{
+	background-color: salmon;
+	
+}
+
+.darksalmonbg{
+	background-color: darksalmon;
+	
+}
+
+.bluebg{
+	background-color: blue;
+	
+}
+
+.dodgerbluebg{
+	background-color: dodgerblue;
+	
+}
+
+.darkseagreenbg{
+	background-color: darkseagreen;
+	
+}
+
+.lavenderblush{
+	background-color: lavenderblush;
+	
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	
+	
+}

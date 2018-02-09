@@ -21,14 +21,13 @@ h1 {
 	color: white;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: normal;
-	text-transform: capitalize;
 }
 
 h2 {
     margin: 0 0 20px 0;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 24px;
-	text-transform: capitalize;
+	font-weight: normal;
 	
 }
 
@@ -74,6 +73,7 @@ nav {
     padding: 160px 0 20px 0;
     width: 960px;
     position: relative;
+	height: auto;
 }
 
 #left{
@@ -131,7 +131,6 @@ nav {
 
 #right{
 	float: right;
-    display: inline-block;
     width: 270px;
     height: auto;
     background-color: white;
@@ -170,12 +169,21 @@ p {
 footer {
     text-align: center;
 	border-top: #0B9E7E solid 10px;
-    margin: 40px auto 0;
 	padding: 40px;
 	background-color: grey;
 	width: 100%;
-	position: fixed;
-	bottom:0;
-	z-index: -1;
+	position: absolute;
+	bottom: 0;
+	
 	
 }
+
+.spacer{
+	width: 100%;
+	min-height: 100px;
+}
+
+
+  
+  
+  
